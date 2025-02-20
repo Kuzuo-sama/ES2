@@ -1,0 +1,4 @@
+cd com/es2/...
+javac --release 8 "".java
+cd ../../..
+jar cf "".jar com/es2/.../"".class
