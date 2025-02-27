@@ -1,7 +1,7 @@
 cd com/es2/...
 javac --release 8 *.java
 cd ../../..
-Singleton ou Objectpool:
+Singleton ou Objectpool ou Composite:
     jar cf Registry.jar com/es2/singleton/*.class
 Factory:
     jar cvfe Factory.jar com.es2.factorymethod.FactoryProduct com/es2/factorymethod/*.class
